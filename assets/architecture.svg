@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-label="Cybersecurity and AI architecture grid">
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00ff88" stop-opacity=".02"/><stop offset=".5" stop-color="#00ff88" stop-opacity=".22"/><stop offset="1" stop-color="#00ff88" stop-opacity=".02"/></linearGradient>
+<filter id="b"><feGaussianBlur stdDeviation="3"/></filter>
+<style>.t{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#64ff9e}.s{stroke:#1dff76;stroke-opacity:.28;fill:none}</style>
+</defs>
+<rect width="1200" height="300" fill="#020604"/>
+<path d="M0 250H1200M0 205H1200M0 160H1200M0 115H1200M0 70H1200" class="s"/>
+<path d="M0 250L150 70M100 250L225 70M200 250L300 70M300 250L375 70M400 250L450 70M500 250L525 70M600 250L600 70M700 250L675 70M800 250L750 70M900 250L825 70M1000 250L900 70M1100 250L975 70M1200 250L1050 70" class="s"/>
+<path d="M0 250L150 70H1050L1200 250Z" fill="url(#g)"/>
+<g fill="#39ff88" filter="url(#b)">
+<circle cx="185" cy="175" r="3"/><circle cx="350" cy="142" r="3"/><circle cx="600" cy="115" r="4"/><circle cx="850" cy="151" r="3"/><circle cx="1030" cy="185" r="3"/>
+</g>
+<g stroke="#6dffab" stroke-width="1" fill="#06150d">
+<path d="M130 205L210 155L290 205L210 255Z"/><path d="M500 175L600 115L700 175L600 235Z"/><path d="M900 205L980 155L1060 205L980 255Z"/>
+</g>
+<g class="t" font-size="13" text-anchor="middle">
+<text x="210" y="207">AI</text><text x="600" y="177">SECURITY</text><text x="980" y="207">NETWORK</text>
+</g>
+<text x="600" y="40" class="t" font-size="16" text-anchor="middle">ARCHITECTURE // BUILD • SECURE • DEPLOY</text>
+</svg>
