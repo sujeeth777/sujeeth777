@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 210">
+<defs>
+ <linearGradient id="g" x1="0" x2="1"><stop stop-color="#00ff88"/><stop offset=".5" stop-color="#baffdf"/><stop offset="1" stop-color="#00ff88"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="210" rx="16" fill="#020604"/>
+<g font-family="monospace" font-size="13" fill="#00ff88" opacity=".7">
+ <text x="25" y="30">LIVE // BUILD PIPELINE</text>
+ <text x="25" y="55">[01] DISCOVER</text><text x="245" y="55">[02] DESIGN</text><text x="465" y="55">[03] BUILD</text><text x="685" y="55">[04] BREAK</text><text x="905" y="55">[05] SHIP</text>
+</g>
+<g stroke="#00ff88" stroke-width="1" opacity=".2">
+ <path d="M25 90H1175"/><path d="M25 130H1175"/><path d="M25 170H1175"/>
+</g>
+<g fill="url(#g)" filter="url(#glow)">
+ <circle cx="85" cy="110" r="5"><animate attributeName="cx" values="85;1115;85" dur="7s" repeatCount="indefinite"/></circle>
+ <circle cx="300" cy="150" r="4"><animate attributeName="cx" values="300;900;300" dur="4.5s" repeatCount="indefinite"/></circle>
+ <circle cx="530" cy="95" r="3"><animate attributeName="cy" values="95;165;95" dur="2.7s" repeatCount="indefinite"/></circle>
+ <circle cx="760" cy="150" r="4"><animate attributeName="cy" values="150;95;150" dur="3.2s" repeatCount="indefinite"/></circle>
+ <circle cx="1000" cy="110" r="5"><animate attributeName="cx" values="1000;100;1000" dur="8s" repeatCount="indefinite"/></circle>
+</g>
+<g stroke="url(#g)" fill="none" stroke-width="2" filter="url(#glow)">
+ <path d="M85 110 H300 L530 95 L760 150 L1000 110 L1115 130">
+   <animate attributeName="stroke-dasharray" values="1 1000;1000 0" dur="2.5s" repeatCount="indefinite"/>
+ </path>
+</g>
+<text x="25" y="195" font-family="monospace" font-size="11" fill="#00ff88" opacity=".4">SYSTEMS ARE NOT FINISHED WHEN THEY WORK. THEY ARE FINISHED WHEN THEY SURVIVE.</text>
+</svg>
