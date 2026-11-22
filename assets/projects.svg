@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 610">
+<defs>
+ <linearGradient id="g"><stop stop-color="#00ff88"/><stop offset=".5" stop-color="#baffdf"/><stop offset="1" stop-color="#00a85a"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#00ff88" stroke-opacity=".07"/></pattern>
+</defs>
+<rect width="1200" height="610" rx="18" fill="#020604"/>
+<rect width="1200" height="610" fill="url(#grid)"/>
+<text x="48" y="55" font-family="monospace" font-size="16" fill="#00ff88">PROJECT MATRIX // 06 ACTIVE NODES</text>
+<text x="48" y="80" font-family="monospace" font-size="11" fill="#00ff88" opacity=".45">selecting systems from ~/projects • telemetry online</text>
+
+<g font-family="monospace" fill="#00ff88">
+ <g transform="translate(55 115)">
+  <rect width="330" height="125" rx="10" fill="#06130d" stroke="#00ff88" stroke-opacity=".5"/>
+  <text x="20" y="30" font-size="13">01 // PHISHING DETECTOR</text>
+  <text x="20" y="56" font-size="10" opacity=".55">AI SECURITY NODE</text>
+  <text x="20" y="82" font-size="10">URL → FEATURES → MODEL → VERDICT</text>
+  <text x="20" y="105" font-size="9" opacity=".45">STATUS: <tspan>ONLINE</tspan></text>
+  <circle cx="300" cy="28" r="4"><animate attributeName="r" values="3;7;3" dur="1.5s" repeatCount="indefinite"/></circle>
+ </g>
+ <g transform="translate(435 115)">
+  <rect width="330" height="125" rx="10" fill="#06130d" stroke="#00ff88" stroke-opacity=".5"/>
+  <text x="20" y="30" font-size="13">02 // TINYGPT-100K</text>
+  <text x="20" y="56" font-size="10" opacity=".55">LANGUAGE MODEL NODE</text>
+  <text x="20" y="82" font-size="10">TOKENS → EMBEDDINGS → TRANSFORMER</text>
+  <text x="20" y="105" font-size="9" opacity=".45">STATUS: <tspan>TRAINING</tspan></text>
+  <circle cx="300" cy="28" r="4"><animate attributeName="r" values="3;7;3" dur="1.8s" repeatCount="indefinite"/></circle>
+ </g>
+ <g transform="translate(815 115)">
+  <rect width="330" height="125" rx="10" fill="#06130d" stroke="#00ff88" stroke-opacity=".5"/>
+  <text x="20" y="30" font-size="13">03 // FARMHUB</text>
+  <text x="20" y="56" font-size="10" opacity=".55">FULL-STACK NODE</text>
+  <text x="20" y="82" font-size="10">REACT → API → DATABASE</text>
+  <text x="20" y="105" font-size="9" opacity=".45">STATUS: <tspan>BUILDING</tspan></text>
+  <circle cx="300" cy="28" r="4"><animate attributeName="r" values="3;7;3" dur="2s" repeatCount="indefinite"/></circle>
+ </g>
+ <g transform="translate(55 280)">
+  <rect width="330" height="125" rx="10" fill="#06130d" stroke="#00ff88" stroke-opacity=".5"/>
+  <text x="20" y="30" font-size="13">04 // HOSPITAL SYSTEM</text>
+  <text x="20" y="56" font-size="10" opacity=".55">APPLICATION NODE</text>
+  <text x="20" y="82" font-size="10">AUTH → DATA → OPERATIONS</text>
+  <text x="20" y="105" font-size="9" opacity=".45">STATUS: <tspan>ONLINE</tspan></text>
+ </g>
+ <g transform="translate(435 280)">
+  <rect width="330" height="125" rx="10" fill="#06130d" stroke="#00ff88" stroke-opacity=".5"/>
+  <text x="20" y="30" font-size="13">05 // TRADING AI</text>
+  <text x="20" y="56" font-size="10" opacity=".55">EXPERIMENTAL NODE</text>
+  <text x="20" y="82" font-size="10">MARKET → SIGNALS → ANALYSIS</text>
+  <text x="20" y="105" font-size="9" opacity=".45">STATUS: <tspan>EXPERIMENTAL</tspan></text>
+ </g>
+ <g transform="translate(815 280)">
+  <rect width="330" height="125" rx="10" fill="#06130d" stroke="#00ff88" stroke-opacity=".5"/>
+  <text x="20" y="30" font-size="13">06 // PRELIGHT</text>
+  <text x="20" y="56" font-size="10" opacity=".55">PERFORMANCE NODE</text>
+  <text x="20" y="82" font-size="10">INFERENCE → BENCHMARK → OPTIMIZE</text>
+  <text x="20" y="105" font-size="9" opacity=".45">STATUS: <tspan>OPTIMIZING</tspan></text>
+ </g>
+</g>
+
+<g stroke="url(#g)" stroke-width="2" fill="none" filter="url(#glow)">
+ <path d="M220 405 V475 H600 V530 H980 V405"/>
+ <path d="M600 475 V405"/>
+ <path d="M220 475 H980"/>
+ <path d="M220 475 L100 540 M600 530 L600 565 M980 475 L1100 540">
+   <animate attributeName="stroke-dasharray" values="1 1200;1200 0" dur="4s" repeatCount="indefinite"/>
+ </path>
+</g>
+<g fill="#00ff88" filter="url(#glow)">
+ <circle cx="220" cy="475" r="5"><animate attributeName="r" values="4;9;4" dur="1.4s" repeatCount="indefinite"/></circle>
+ <circle cx="600" cy="530" r="5"><animate attributeName="r" values="4;10;4" dur="1.7s" repeatCount="indefinite"/></circle>
+ <circle cx="980" cy="475" r="5"><animate attributeName="r" values="4;9;4" dur="1.9s" repeatCount="indefinite"/></circle>
+</g>
+<text x="48" y="565" font-family="monospace" font-size="11" fill="#00ff88" opacity=".45">CORE ROUTER :: AI ↔ SECURITY ↔ NETWORKING ↔ SOFTWARE</text>
+</svg>
