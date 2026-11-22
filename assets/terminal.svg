@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" role="img" aria-label="Sri Sujeeth terminal interface">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020604"/><stop offset=".55" stop-color="#06130d"/><stop offset="1" stop-color="#020604"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07180f"/><stop offset="1" stop-color="#020805"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  <pattern id="scan" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 0H6" stroke="#00ff88" stroke-opacity=".035"/></pattern>
+  <style>
+    .g{fill:#8dffbd;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .m{fill:#39ff88;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .d{fill:#3c8b62;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .line{stroke:#21ff78;stroke-opacity:.35;fill:none}
+  </style>
+</defs>
+<rect width="1200" height="520" rx="26" fill="url(#bg)"/>
+<rect x="20" y="20" width="1160" height="480" rx="20" fill="url(#panel)" stroke="#19ff75" stroke-opacity=".35"/>
+<ellipse cx="950" cy="100" rx="220" ry="160" fill="#00ff66" opacity=".08" filter="url(#soft)"/>
+<rect x="20" y="20" width="1160" height="480" rx="20" fill="url(#scan)"/>
+<path class="line" d="M45 76H1155M45 455H1155"/>
+<circle cx="55" cy="49" r="7" fill="#ff5f57"/><circle cx="79" cy="49" r="7" fill="#febc2e"/><circle cx="103" cy="49" r="7" fill="#28c840"/>
+<text x="135" y="55" class="d" font-size="15">sujeeth@kernel: ~/profile — ssh</text>
+
+<text x="58" y="116" class="m" font-size="18">$ whoami --verbose</text>
+<text x="58" y="154" class="g" font-size="34">SRI SUJEETH SIRIVELLA</text>
+<text x="60" y="184" class="m" font-size="17">AI ENGINEER  •  CYBERSECURITY  •  NETWORKING  •  SOFTWARE</text>
+<text x="60" y="220" class="d" font-size="15">Engineering intelligence. Securing the future.</text>
+
+<text x="58" y="270" class="m" font-size="18">$ systemctl status --user</text>
+<text x="60" y="299" class="g" font-size="15">● portfolio.service      active (running)</text>
+<text x="60" y="325" class="g" font-size="15">● security-stack.service active (running)</text>
+<text x="60" y="351" class="g" font-size="15">● neural-lab.service     active (running)</text>
+<text x="60" y="377" class="g" font-size="15">● network-lab.service    active (running)</text>
+
+<g transform="translate(710 112)">
+  <path d="M0 250L170 0 420 100 245 350Z" fill="#00ff73" fill-opacity=".035" stroke="#26ff83" stroke-opacity=".28"/>
+  <path d="M55 215L185 45 365 112 230 290Z" fill="none" stroke="#55ffa0" stroke-opacity=".25"/>
+  <path d="M105 180L198 88 315 130 220 235Z" fill="#00ff88" fill-opacity=".08" stroke="#52ffa0" stroke-opacity=".38"/>
+  <path d="M170 150L208 112 258 130 220 171Z" fill="#83ffb8" fill-opacity=".16" stroke="#83ffb8" stroke-opacity=".5"/>
+  <path d="M0 250L55 215M55 215L105 180M105 180L170 150M170 150L220 171M220 171L245 350" class="line"/>
+  <circle cx="170" cy="150" r="6" fill="#7dffb2" filter="url(#glow)"/>
+  <circle cx="105" cy="180" r="4" fill="#39ff88" filter="url(#glow)"/>
+  <circle cx="245" cy="350" r="4" fill="#39ff88" filter="url(#glow)"/>
+  <text x="285" y="260" class="d" font-size="13">3D//NODE</text>
+  <text x="285" y="281" class="m" font-size="13">SECURE_CORE</text>
+</g>
+
+<text x="58" y="425" class="m" font-size="17">$ ./connect --status</text>
+<text x="290" y="425" class="g" font-size="15">OPEN TO INTERNSHIP OPPORTUNITIES</text>
+<rect x="58" y="443" width="8" height="18" fill="#39ff88"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+</svg>
