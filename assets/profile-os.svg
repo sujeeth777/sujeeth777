@@ -1,171 +1,117 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="3000" viewBox="0 0 1200 3000">
-<defs>
-  <linearGradient id="g" x1="0" x2="1"><stop stop-color="#00ff66"/><stop offset=".5" stop-color="#00cc55"/><stop offset="1" stop-color="#66ff99"/></linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#00ff66" stroke-opacity=".07"/></pattern>
-  <pattern id="scan" width="1200" height="10" patternUnits="userSpaceOnUse"><rect width="1200" height="2" fill="#00ff66" opacity=".035"/></pattern>
-  <style>
-    .t{font-family:monospace;fill:#00ff66}.dim{fill:#42b86b}.muted{fill:#1e8c4c}
-    .line{stroke:#00ff66;fill:none;stroke-width:2}.thin{stroke:#00ff66;fill:none;stroke-opacity:.28}
-    .box{fill:#020b06;stroke:#00ff66;stroke-opacity:.45}.title{font-weight:bold;letter-spacing:3px}
-  </style>
-</defs>
-
-<rect width="1200" height="3000" fill="#010603"/>
-<rect width="1200" height="3000" fill="url(#grid)"/>
-<rect width="1200" height="3000" fill="url(#scan)"/>
-<circle cx="600" cy="420" r="300" fill="#00ff66" opacity=".025" filter="url(#soft)"/>
-
-<!-- BOOT -->
-<rect x="28" y="24" width="1144" height="96" rx="10" class="box"/>
-<circle cx="55" cy="50" r="7" fill="#00ff66"><animate attributeName="opacity" values="1;.2;1" dur="1s" repeatCount="indefinite"/></circle>
-<text x="78" y="56" class="t title" font-size="19">SUJEETH//PROFILE_OS</text>
-<text x="78" y="84" class="dim" font-size="14">$ boot --profile --mode=terminal_green --render=3D</text>
-<text x="930" y="56" class="t" font-size="13">STATUS: ONLINE</text>
-<text x="930" y="84" class="muted" font-size="12">PID 777 // SECURE</text>
-
-<!-- HERO -->
-<text x="600" y="205" text-anchor="middle" class="t title" font-size="52" filter="url(#glow)">SRI SUJEETH</text>
-<text x="600" y="242" text-anchor="middle" class="dim" font-size="16">COMPUTER SCIENCE // AI × CYBERSECURITY × NETWORKING</text>
-<path d="M150 270H1050" class="line" opacity=".5">
- <animate attributeName="stroke-dasharray" values="0 900;450 450;900 0;0 900" dur="4s" repeatCount="indefinite"/>
-</path>
-
-<!-- ORBIT CORE -->
-<g transform="translate(600 440)">
- <ellipse rx="260" ry="105" class="thin"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="12s" repeatCount="indefinite"/></ellipse>
- <ellipse rx="190" ry="70" class="thin"><animateTransform attributeName="transform" type="rotate" values="360;0" dur="9s" repeatCount="indefinite"/></ellipse>
- <ellipse rx="125" ry="46" class="line" opacity=".55"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="6s" repeatCount="indefinite"/></ellipse>
- <circle r="76" fill="#02170b" stroke="#00ff66" stroke-width="3" filter="url(#glow)">
-   <animate attributeName="r" values="70;82;70" dur="2.4s" repeatCount="indefinite"/>
- </circle>
- <text y="-8" text-anchor="middle" class="t title" font-size="18">CORE</text>
- <text y="16" text-anchor="middle" class="dim" font-size="11">SUJEETH//777</text>
- <g class="t" font-size="11">
-  <text x="-300" y="-5">AI</text><circle cx="-255" cy="-12" r="5" fill="#00ff66"><animate attributeName="cy" values="-12;-3;-12" dur="2s" repeatCount="indefinite"/></circle>
-  <text x="260" y="-5">SECURITY</text><circle cx="240" cy="38" r="5" fill="#00ff66"><animate attributeName="r" values="3;7;3" dur="1.4s" repeatCount="indefinite"/></circle>
-  <text x="-40" y="-135">NETWORK</text><circle cx="35" cy="-105" r="5" fill="#00ff66"><animate attributeName="opacity" values=".2;1;.2" dur="1s" repeatCount="indefinite"/></circle>
-  <text x="-40" y="145">SYSTEMS</text>
- </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="2600" viewBox="0 0 1200 2600">
+<rect width="1200" height="2600" fill="#020604"/>
+<g stroke="#00ff66" stroke-opacity=".08">
+<path d="M0 40H1200M0 80H1200M0 120H1200M0 160H1200M0 200H1200M0 240H1200M0 280H1200M0 320H1200M0 360H1200M0 400H1200M0 440H1200M0 480H1200M0 520H1200M0 560H1200M0 600H1200M0 640H1200M0 680H1200M0 720H1200M0 760H1200M0 800H1200M0 840H1200M0 880H1200M0 920H1200M0 960H1200M0 1000H1200M0 1040H1200M0 1080H1200M0 1120H1200M0 1160H1200M0 1200H1200M0 1240H1200M0 1280H1200M0 1320H1200M0 1360H1200M0 1400H1200M0 1440H1200M0 1480H1200M0 1520H1200M0 1560H1200M0 1600H1200M0 1640H1200M0 1680H1200M0 1720H1200M0 1760H1200M0 1800H1200M0 1840H1200M0 1880H1200M0 1920H1200M0 1960H1200M0 2000H1200M0 2040H1200M0 2080H1200M0 2120H1200M0 2160H1200M0 2200H1200M0 2240H1200M0 2280H1200M0 2320H1200M0 2360H1200M0 2400H1200M0 2440H1200M0 2480H1200M0 2520H1200M0 2560H1200"/>
+<path d="M40 0V2600M80 0V2600M120 0V2600M160 0V2600M200 0V2600M240 0V2600M280 0V2600M320 0V2600M360 0V2600M400 0V2600M440 0V2600M480 0V2600M520 0V2600M560 0V2600M600 0V2600M640 0V2600M680 0V2600M720 0V2600M760 0V2600M800 0V2600M840 0V2600M880 0V2600M920 0V2600M960 0V2600M1000 0V2600M1040 0V2600M1080 0V2600M1120 0V2600M1160 0V2600"/>
 </g>
 
-<!-- COMMAND -->
-<rect x="55" y="590" width="1090" height="170" rx="8" class="box"/>
-<text x="78" y="625" class="t" font-size="14">$ whoami</text>
-<text x="78" y="660" class="t title" font-size="21">Sri Sujeeth Sirivella</text>
-<text x="78" y="688" class="dim" font-size="13">B.Tech CSE // Karunya Institute of Technology and Sciences // GRAD 2028</text>
-<text x="78" y="716" class="dim" font-size="13">BUILDING: AI SYSTEMS / SECURITY TOOLS / NETWORKED SOFTWARE</text>
-<text x="78" y="744" class="t" font-size="12">OPEN_TO_INTERNSHIPS=true</text>
-<circle cx="1090" cy="620" r="8" fill="#00ff66"><animate attributeName="opacity" values="1;.15;1" dur=".8s" repeatCount="indefinite"/></circle>
+<rect x="25" y="25" width="1150" height="90" rx="8" fill="#031108" stroke="#00ff66" stroke-width="2"/>
+<circle cx="55" cy="55" r="7" fill="#00ff66"><animate attributeName="opacity" values="1;.15;1" dur="1s" repeatCount="indefinite"/></circle>
+<text x="78" y="62" fill="#00ff66" font-family="monospace" font-size="22" font-weight="bold">SUJEETH//PROFILE_OS</text>
+<text x="78" y="91" fill="#42b86b" font-family="monospace" font-size="13">$ boot --profile --green-terminal --3d</text>
+<text x="940" y="60" fill="#00ff66" font-family="monospace" font-size="12">ONLINE</text>
+<text x="940" y="84" fill="#248c4b" font-family="monospace" font-size="11">PID 777</text>
 
-<!-- STACK HUD -->
-<text x="55" y="815" class="t title" font-size="18">$ cat /etc/stack --live</text>
-<g transform="translate(55 840)">
- <rect width="340" height="250" rx="8" class="box"/><rect x="365" width="340" height="250" rx="8" class="box"/><rect x="730" width="415" height="250" rx="8" class="box"/>
- <text x="20" y="34" class="t title" font-size="15">01 // AI</text>
- <text x="20" y="68" class="dim" font-size="13">MACHINE LEARNING</text><text x="20" y="94" class="dim" font-size="13">DEEP LEARNING</text><text x="20" y="120" class="dim" font-size="13">PYTORCH</text><text x="20" y="146" class="dim" font-size="13">TRANSFORMERS / LLMS</text><text x="20" y="172" class="dim" font-size="13">DATA ANALYSIS</text>
- <rect x="20" y="205" width="290" height="8" fill="#063d1d"/><rect x="20" y="205" width="220" height="8" fill="#00ff66"><animate attributeName="width" values="40;220;120;220" dur="3s" repeatCount="indefinite"/></rect>
- <text x="385" y="34" class="t title" font-size="15">02 // SECURITY</text>
- <text x="385" y="68" class="dim" font-size="13">NETWORK SECURITY</text><text x="385" y="94" class="dim" font-size="13">WEB APP SECURITY</text><text x="385" y="120" class="dim" font-size="13">PHISHING ANALYSIS</text><text x="385" y="146" class="dim" font-size="13">VULNERABILITY ASSESSMENT</text><text x="385" y="172" class="dim" font-size="13">LINUX / AUTOMATION</text>
- <rect x="385" y="205" width="290" height="8" fill="#063d1d"/><rect x="385" y="205" width="255" height="8" fill="#00ff66"><animate attributeName="width" values="80;255;160;255" dur="2.7s" repeatCount="indefinite"/></rect>
- <text x="750" y="34" class="t title" font-size="15">03 // ENGINEERING</text>
- <text x="750" y="68" class="dim" font-size="13">PYTHON / JAVASCRIPT / TYPESCRIPT</text><text x="750" y="94" class="dim" font-size="13">REACT / NEXT.JS / NODE.JS</text><text x="750" y="120" class="dim" font-size="13">EXPRESS / MONGODB / SQL</text><text x="750" y="146" class="dim" font-size="13">GIT / LINUX / TCP-IP</text><text x="750" y="172" class="dim" font-size="13">SYSTEM DESIGN / DEBUGGING</text>
- <rect x="750" y="205" width="350" height="8" fill="#063d1d"/><rect x="750" y="205" width="300" height="8" fill="#00ff66"><animate attributeName="width" values="60;300;180;300" dur="3.2s" repeatCount="indefinite"/></rect>
+<text x="600" y="190" text-anchor="middle" fill="#00ff66" font-family="monospace" font-size="48" font-weight="bold">SRI SUJEETH</text>
+<text x="600" y="225" text-anchor="middle" fill="#42b86b" font-family="monospace" font-size="15">AI / CYBERSECURITY / NETWORKING / SOFTWARE</text>
+<path d="M150 255H1050" stroke="#00ff66" stroke-width="2" stroke-dasharray="8 18"><animate attributeName="stroke-dashoffset" values="0;-52" dur="1s" repeatCount="indefinite"/></path>
+
+<g transform="translate(600 420)">
+<ellipse rx="280" ry="120" fill="none" stroke="#00ff66" stroke-opacity=".35" stroke-width="2"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="12s" repeatCount="indefinite"/></ellipse>
+<ellipse rx="205" ry="80" fill="none" stroke="#00ff66" stroke-opacity=".45" stroke-width="2"><animateTransform attributeName="transform" type="rotate" values="360;0" dur="9s" repeatCount="indefinite"/></ellipse>
+<circle r="80" fill="#031a0c" stroke="#00ff66" stroke-width="3"><animate attributeName="r" values="72;86;72" dur="2s" repeatCount="indefinite"/></circle>
+<text y="-7" text-anchor="middle" fill="#00ff66" font-family="monospace" font-size="19" font-weight="bold">CORE</text>
+<text y="18" text-anchor="middle" fill="#42b86b" font-family="monospace" font-size="11">SUJEETH//777</text>
+<circle cx="-280" cy="0" r="7" fill="#00ff66"><animate attributeName="cy" values="-8;8;-8" dur="2s" repeatCount="indefinite"/></circle>
+<circle cx="280" cy="0" r="7" fill="#00ff66"><animate attributeName="r" values="4;9;4" dur="1.4s" repeatCount="indefinite"/></circle>
+<circle cx="0" cy="-120" r="7" fill="#00ff66"><animate attributeName="opacity" values=".2;1;.2" dur="1s" repeatCount="indefinite"/></circle>
+<circle cx="0" cy="120" r="7" fill="#00ff66"><animate attributeName="opacity" values="1;.2;1" dur=".8s" repeatCount="indefinite"/></circle>
+<text x="-330" y="-20" fill="#00ff66" font-family="monospace" font-size="12">AI</text>
+<text x="295" y="-20" fill="#00ff66" font-family="monospace" font-size="12">SECURITY</text>
+<text x="-40" y="-140" fill="#00ff66" font-family="monospace" font-size="12">NETWORK</text>
+<text x="-42" y="150" fill="#00ff66" font-family="monospace" font-size="12">SYSTEMS</text>
 </g>
 
-<!-- PROJECT MATRIX -->
-<text x="55" y="1140" class="t title" font-size="18">$ ./projects --scan --visualize</text>
-<g transform="translate(55 1165)">
- <rect width="1090" height="650" rx="10" class="box"/>
- <g stroke="#00ff66" fill="none" opacity=".25"><path d="M0 215H1090M0 430H1090M363 0V650M726 0V650"/></g>
- <g class="t">
-  <text x="24" y="34" font-size="12">[01] AI PHISHING URL DETECTOR</text><text x="24" y="62" class="dim" font-size="11">URL → FEATURES → MODEL → VERDICT</text>
-  <circle cx="315" cy="175" r="7" fill="#00ff66"><animate attributeName="r" values="4;10;4" dur="1.2s" repeatCount="indefinite"/></circle>
-  <text x="387" y="34" font-size="12">[02] TINYGPT-100K</text><text x="387" y="62" class="dim" font-size="11">TOKENS → EMBEDDINGS → TRANSFORMER</text>
-  <circle cx="680" cy="175" r="7" fill="#00ff66"><animate attributeName="r" values="3;9;3" dur="1.6s" repeatCount="indefinite"/></circle>
-  <text x="750" y="34" font-size="12">[03] FARMHUB</text><text x="750" y="62" class="dim" font-size="11">REACT → API → DATABASE</text>
-  <circle cx="1035" cy="175" r="7" fill="#00ff66"><animate attributeName="opacity" values=".2;1;.2" dur="1s" repeatCount="indefinite"/></circle>
-  <text x="24" y="249" font-size="12">[04] HOSPITAL SYSTEM</text><text x="24" y="277" class="dim" font-size="11">AUTH → DATA → OPERATIONS</text>
-  <circle cx="315" cy="390" r="7" fill="#00ff66"><animate attributeName="cy" values="390;370;390" dur="1.8s" repeatCount="indefinite"/></circle>
-  <text x="387" y="249" font-size="12">[05] SUJEETH TRADING AI</text><text x="387" y="277" class="dim" font-size="11">MARKET → SIGNALS → ANALYSIS</text>
-  <circle cx="680" cy="390" r="7" fill="#00ff66"><animate attributeName="r" values="4;8;4" dur="1.1s" repeatCount="indefinite"/></circle>
-  <text x="750" y="249" font-size="12">[06] PRELIGHT</text><text x="750" y="277" class="dim" font-size="11">INFERENCE → BENCHMARK → OPTIMIZE</text>
-  <circle cx="1035" cy="390" r="7" fill="#00ff66"><animate attributeName="opacity" values="1;.15;1" dur=".7s" repeatCount="indefinite"/></circle>
- </g>
- <g stroke="#00ff66" opacity=".45" fill="none">
-  <path d="M180 100C180 150 310 150 315 175M545 100C545 150 680 150 680 175M900 100C900 150 1035 150 1035 175"/>
-  <path d="M180 315C180 365 315 365 315 390M545 315C545 365 680 365 680 390M900 315C900 365 1035 365 1035 390"/>
-  <path d="M315 175C500 120 590 120 680 175M680 390C800 430 930 430 1035 390"/>
-  <path d="M315 390C450 500 610 500 750 430"/>
-  <animate attributeName="stroke-dasharray" values="5 18;18 5;5 18" dur="2s" repeatCount="indefinite"/>
- </g>
- <rect x="20" y="485" width="1050" height="125" fill="#010a05" stroke="#00ff66" stroke-opacity=".25"/>
- <text x="40" y="515" class="t" font-size="12">$ telemetry --projects</text>
- <text x="40" y="545" class="dim" font-size="11">ACTIVE_NODES: 06</text><text x="260" y="545" class="dim" font-size="11">PIPELINES: 06</text><text x="450" y="545" class="dim" font-size="11">BUILD_MODE: EXPERIMENTAL</text><text x="760" y="545" class="t" font-size="11">ALL_SYSTEMS_NOMINAL</text>
- <path d="M40 575H1035" stroke="#00ff66" opacity=".2"/><circle cx="40" cy="575" r="4" fill="#00ff66"><animate attributeName="cx" values="40;1035;40" dur="3s" repeatCount="indefinite"/></circle>
- </g>
+<g transform="translate(55 600)">
+<rect width="1090" height="180" rx="8" fill="#031108" stroke="#00ff66" stroke-opacity=".5"/>
+<text x="25" y="35" fill="#00ff66" font-family="monospace" font-size="14">$ whoami</text>
+<text x="25" y="70" fill="#00ff66" font-family="monospace" font-size="20" font-weight="bold">Sri Sujeeth Sirivella</text>
+<text x="25" y="100" fill="#42b86b" font-family="monospace" font-size="12">B.Tech CSE / Karunya Institute of Technology and Sciences / 2028</text>
+<text x="25" y="128" fill="#42b86b" font-family="monospace" font-size="12">BUILDING: AI SYSTEMS / SECURITY TOOLS / NETWORKED SOFTWARE</text>
+<text x="25" y="157" fill="#00ff66" font-family="monospace" font-size="12">OPEN_TO_INTERNSHIPS=true</text>
+<circle cx="1050" cy="35" r="7" fill="#00ff66"><animate attributeName="opacity" values="1;.1;1" dur=".7s" repeatCount="indefinite"/></circle>
 </g>
 
-<!-- 3D SYSTEM -->
-<text x="55" y="1865" class="t title" font-size="18">$ ./network --3d --packets=live</text>
+<text x="55" y="830" fill="#00ff66" font-family="monospace" font-size="18" font-weight="bold">$ cat /etc/stack --live</text>
+<g transform="translate(55 850)">
+<rect width="350" height="250" rx="8" fill="#031108" stroke="#00ff66" stroke-opacity=".45"/>
+<rect x="370" width="350" height="250" rx="8" fill="#031108" stroke="#00ff66" stroke-opacity=".45"/>
+<rect x="740" width="405" height="250" rx="8" fill="#031108" stroke="#00ff66" stroke-opacity=".45"/>
+<g fill="#00ff66" font-family="monospace" font-size="13">
+<text x="20" y="35" font-weight="bold">01 // AI</text><text x="20" y="70">MACHINE LEARNING</text><text x="20" y="98">DEEP LEARNING</text><text x="20" y="126">PYTORCH</text><text x="20" y="154">TRANSFORMERS / LLMS</text><text x="20" y="182">DATA ANALYSIS</text>
+<text x="390" y="35" font-weight="bold">02 // SECURITY</text><text x="390" y="70">NETWORK SECURITY</text><text x="390" y="98">WEB APP SECURITY</text><text x="390" y="126">PHISHING ANALYSIS</text><text x="390" y="154">VULNERABILITY ASSESSMENT</text><text x="390" y="182">LINUX / AUTOMATION</text>
+<text x="760" y="35" font-weight="bold">03 // ENGINEERING</text><text x="760" y="70">PYTHON / JAVASCRIPT / TYPESCRIPT</text><text x="760" y="98">REACT / NEXT.JS / NODE.JS</text><text x="760" y="126">EXPRESS / MONGODB / SQL</text><text x="760" y="154">GIT / LINUX / TCP-IP</text><text x="760" y="182">SYSTEM DESIGN / DEBUGGING</text>
+</g>
+<rect x="20" y="215" width="310" height="7" fill="#073b1c"/><rect x="20" y="215" width="210" height="7" fill="#00ff66"><animate attributeName="width" values="60;210;120;210" dur="3s" repeatCount="indefinite"/></rect>
+<rect x="390" y="215" width="310" height="7" fill="#073b1c"/><rect x="390" y="215" width="240" height="7" fill="#00ff66"><animate attributeName="width" values="70;240;150;240" dur="2.5s" repeatCount="indefinite"/></rect>
+<rect x="760" y="215" width="350" height="7" fill="#073b1c"/><rect x="760" y="215" width="290" height="7" fill="#00ff66"><animate attributeName="width" values="80;290;180;290" dur="3.2s" repeatCount="indefinite"/></rect>
+</g>
+
+<text x="55" y="1150" fill="#00ff66" font-family="monospace" font-size="18" font-weight="bold">$ ./projects --scan --3d</text>
+<g transform="translate(55 1170)">
+<rect width="1090" height="650" rx="10" fill="#031108" stroke="#00ff66" stroke-opacity=".5"/>
+<g stroke="#00ff66" stroke-opacity=".22"><path d="M0 216H1090M0 433H1090M363 0V650M726 0V650"/></g>
+<g fill="#00ff66" font-family="monospace" font-size="12">
+<text x="22" y="35" font-weight="bold">[01] AI PHISHING URL DETECTOR</text><text x="22" y="62">URL -&gt; FEATURES -&gt; MODEL -&gt; VERDICT</text>
+<text x="387" y="35" font-weight="bold">[02] TINYGPT-100K</text><text x="387" y="62">TOKENS -&gt; EMBEDDINGS -&gt; TRANSFORMER</text>
+<text x="750" y="35" font-weight="bold">[03] FARMHUB</text><text x="750" y="62">REACT -&gt; API -&gt; DATABASE</text>
+<text x="22" y="250" font-weight="bold">[04] HOSPITAL SYSTEM</text><text x="22" y="277">AUTH -&gt; DATA -&gt; OPERATIONS</text>
+<text x="387" y="250" font-weight="bold">[05] SUJEETH TRADING AI</text><text x="387" y="277">MARKET -&gt; SIGNALS -&gt; ANALYSIS</text>
+<text x="750" y="250" font-weight="bold">[06] PRELIGHT</text><text x="750" y="277">INFERENCE -&gt; BENCHMARK -&gt; OPTIMIZE</text>
+</g>
+<g fill="#00ff66"><circle cx="315" cy="175" r="7"><animate attributeName="r" values="4;11;4" dur="1.2s" repeatCount="indefinite"/></circle><circle cx="680" cy="175" r="7"><animate attributeName="r" values="4;10;4" dur="1.5s" repeatCount="indefinite"/></circle><circle cx="1035" cy="175" r="7"><animate attributeName="opacity" values=".2;1;.2" dur="1s" repeatCount="indefinite"/></circle><circle cx="315" cy="390" r="7"><animate attributeName="cy" values="390;370;390" dur="1.8s" repeatCount="indefinite"/></circle><circle cx="680" cy="390" r="7"><animate attributeName="r" values="4;9;4" dur="1s" repeatCount="indefinite"/></circle><circle cx="1035" cy="390" r="7"><animate attributeName="opacity" values="1;.1;1" dur=".7s" repeatCount="indefinite"/></circle></g>
+<g stroke="#00ff66" stroke-opacity=".45" fill="none" stroke-dasharray="5 14"><path d="M180 100C180 150 315 150 315 175M545 100C545 150 680 150 680 175M900 100C900 150 1035 150 1035 175M180 315C180 365 315 365 315 390M545 315C545 365 680 365 680 390M900 315C900 365 1035 365 1035 390M315 175C500 120 590 120 680 175M680 390C800 430 930 430 1035 390"/></g>
+<rect x="20" y="485" width="1050" height="125" fill="#020b06" stroke="#00ff66" stroke-opacity=".25"/>
+<text x="40" y="520" fill="#00ff66" font-family="monospace" font-size="12">$ telemetry --projects</text>
+<text x="40" y="550" fill="#42b86b" font-family="monospace" font-size="11">ACTIVE_NODES: 06</text>
+<text x="240" y="550" fill="#42b86b" font-family="monospace" font-size="11">PIPELINES: 06</text>
+<text x="420" y="550" fill="#42b86b" font-family="monospace" font-size="11">BUILD_MODE: EXPERIMENTAL</text>
+<text x="770" y="550" fill="#00ff66" font-family="monospace" font-size="11">ALL_SYSTEMS_NOMINAL</text>
+<circle cx="40" cy="585" r="4" fill="#00ff66"><animate attributeName="cx" values="40;1035;40" dur="3s" repeatCount="indefinite"/></circle>
+<path d="M40 585H1035" stroke="#00ff66" stroke-opacity=".25"/>
+</g>
+
+<text x="55" y="1870" fill="#00ff66" font-family="monospace" font-size="18" font-weight="bold">$ ./network --packets=live</text>
 <g transform="translate(55 1890)">
- <rect width="1090" height="350" rx="10" class="box"/>
- <g transform="translate(545 175)">
-  <ellipse rx="400" ry="120" class="thin"><animateTransform attributeName="transform" type="rotate" values="0 0 0;360 0 0" dur="10s" repeatCount="indefinite"/></ellipse>
-  <ellipse rx="300" ry="90" class="thin"><animateTransform attributeName="transform" type="rotate" values="360 0 0;0 0 0" dur="7s" repeatCount="indefinite"/></ellipse>
-  <polygon points="-80,-65 80,-65 115,-25 115,65 -80,65 -115,25" fill="#03170b" stroke="#00ff66" stroke-width="2"/>
-  <polygon points="-80,-65 0,-105 115,-65 35,-25" fill="#062a15" stroke="#00ff66" opacity=".8"/>
-  <polygon points="115,-65 150,-25 150,65 115,65" fill="#021108" stroke="#00ff66" opacity=".7"/>
-  <text y="5" text-anchor="middle" class="t title" font-size="15">SYSTEM CORE</text>
-  <text y="28" text-anchor="middle" class="dim" font-size="10">AI / SEC / NET</text>
-  <g fill="#00ff66"><circle cx="-400" cy="0" r="6"/><circle cx="400" cy="0" r="6"/><circle cx="0" cy="-120" r="6"/><circle cx="0" cy="120" r="6"/></g>
-  <g stroke="#00ff66" fill="none" opacity=".45">
-   <path d="M-400 0L-115 25M400 0L150 25M0 -120L0 -105M0 120L0 105"/>
-   <path d="M-400 0L400 0"/>
-   <circle r="0" fill="#00ff66"><animate attributeName="cx" values="-400;400;-400" dur="2.5s" repeatCount="indefinite"/></circle>
-  </g>
- </g>
- <text x="25" y="325" class="dim" font-size="11">PACKETS: <tspan class="t">● ● ● ● ●</tspan> // ROUTE: CORE → PUBLIC NETWORK // ENCRYPTION: ACTIVE</text>
+<rect width="1090" height="320" rx="10" fill="#031108" stroke="#00ff66" stroke-opacity=".5"/>
+<g transform="translate(545 155)">
+<ellipse rx="400" ry="105" fill="none" stroke="#00ff66" stroke-opacity=".3"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="10s" repeatCount="indefinite"/></ellipse>
+<ellipse rx="290" ry="75" fill="none" stroke="#00ff66" stroke-opacity=".4"><animateTransform attributeName="transform" type="rotate" values="360;0" dur="7s" repeatCount="indefinite"/></ellipse>
+<polygon points="-90,-60 80,-60 120,-25 120,60 -90,60 -120,25" fill="#04180c" stroke="#00ff66" stroke-width="2"/>
+<polygon points="-90,-60 0,-100 120,-60 30,-20" fill="#062612" stroke="#00ff66"/>
+<polygon points="120,-60 150,-25 150,60 120,60" fill="#021008" stroke="#00ff66"/>
+<text y="5" text-anchor="middle" fill="#00ff66" font-family="monospace" font-size="15" font-weight="bold">SYSTEM CORE</text>
+<text y="27" text-anchor="middle" fill="#42b86b" font-family="monospace" font-size="10">AI / SEC / NET</text>
+<circle cx="-400" cy="0" r="6" fill="#00ff66"/><circle cx="400" cy="0" r="6" fill="#00ff66"/><circle cx="0" cy="-105" r="6" fill="#00ff66"/><circle cx="0" cy="105" r="6" fill="#00ff66"/>
+<circle cx="-400" cy="0" r="4" fill="#66ff99"><animate attributeName="cx" values="-400;400;-400" dur="2.5s" repeatCount="indefinite"/></circle>
+</g>
+<text x="25" y="292" fill="#42b86b" font-family="monospace" font-size="11">PACKETS: [● ● ● ● ●] // ROUTE: CORE -&gt; PUBLIC NETWORK // ENCRYPTION: ACTIVE</text>
 </g>
 
-<!-- CONNECT -->
-<text x="55" y="2290" class="t title" font-size="18">$ ./connect --channels --secure</text>
-<g transform="translate(55 2315)">
- <rect width="1090" height="300" rx="10" class="box"/>
- <g transform="translate(545 150)">
-  <circle r="55" fill="#03170b" stroke="#00ff66" stroke-width="2" filter="url(#glow)"><animate attributeName="r" values="50;62;50" dur="2s" repeatCount="indefinite"/></circle>
-  <text y="-5" text-anchor="middle" class="t title" font-size="13">CORE</text><text y="15" text-anchor="middle" class="dim" font-size="9">CONNECTED</text>
-  <ellipse rx="210" ry="90" class="line" opacity=".35"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="8s" repeatCount="indefinite"/></ellipse>
-  <g class="t" font-size="12">
-   <a href="https://sujeeth777.github.io/"><text x="-500" y="-110">PORTFOLIO</text></a>
-   <a href="https://github.com/sujeeth777"><text x="370" y="-110">GITHUB</text></a>
-   <a href="https://www.linkedin.com/in/sri-sujeeth-213593302"><text x="-500" y="125">LINKEDIN</text></a>
-   <a href="https://www.credly.com/users/sri-sujeeth-sirivella"><text x="370" y="125">CREDLY</text></a>
-  </g>
-  <g fill="#00ff66"><circle cx="-250" cy="-90" r="6"><animate attributeName="opacity" values=".1;1;.1" dur="1s" repeatCount="indefinite"/></circle><circle cx="250" cy="-90" r="6"/><circle cx="-250" cy="90" r="6"/><circle cx="250" cy="90" r="6"/></g>
-  <g stroke="#00ff66" opacity=".5" stroke-dasharray="5 12"><path d="M-250 -90L-55 -20M250 -90L55 -20M-250 90L-55 20M250 90L55 20"><animate attributeName="stroke-dashoffset" values="0;-34" dur="1s" repeatCount="indefinite"/></path></g>
- </g>
- <text x="25" y="278" class="dim" font-size="11">PORTFOLIO: ONLINE // GITHUB: ONLINE // LINKEDIN: READY // CREDLY: VERIFIED</text>
+<text x="55" y="2260" fill="#00ff66" font-family="monospace" font-size="18" font-weight="bold">$ ./connect --secure</text>
+<g transform="translate(55 2280)">
+<rect width="1090" height="220" rx="10" fill="#031108" stroke="#00ff66" stroke-opacity=".5"/>
+<g transform="translate(545 110)">
+<circle r="55" fill="#03170b" stroke="#00ff66" stroke-width="2"><animate attributeName="r" values="48;62;48" dur="2s" repeatCount="indefinite"/></circle>
+<text y="-5" text-anchor="middle" fill="#00ff66" font-family="monospace" font-size="13" font-weight="bold">CORE</text>
+<ellipse rx="220" ry="85" fill="none" stroke="#00ff66" stroke-opacity=".35"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="8s" repeatCount="indefinite"/></ellipse>
+<g fill="#00ff66" font-family="monospace" font-size="12"><text x="-500" y="-100">PORTFOLIO</text><text x="370" y="-100">GITHUB</text><text x="-500" y="115">LINKEDIN</text><text x="370" y="115">CREDLY</text></g>
+<g fill="#00ff66"><circle cx="-250" cy="-80" r="6"><animate attributeName="opacity" values=".1;1;.1" dur="1s" repeatCount="indefinite"/></circle><circle cx="250" cy="-80" r="6"/><circle cx="-250" cy="80" r="6"/><circle cx="250" cy="80" r="6"/></g>
+<g stroke="#00ff66" stroke-opacity=".5" stroke-dasharray="5 12"><path d="M-250 -80L-55 -20M250 -80L55 -20M-250 80L-55 20M250 80L55 20"><animate attributeName="stroke-dashoffset" values="0;-34" dur="1s" repeatCount="indefinite"/></path></g>
+</g>
 </g>
 
-<!-- LOG -->
-<text x="55" y="2670" class="t title" font-size="18">$ tail -f /var/log/motivation</text>
-<rect x="55" y="2690" width="1090" height="210" rx="8" class="box"/>
-<g class="dim" font-size="13">
- <text x="80" y="2725">[OK] LEARN <tspan class="t">████████████████████</tspan></text>
- <text x="80" y="2760">[OK] BUILD <tspan class="t">████████████████████</tspan></text>
- <text x="80" y="2795">[OK] BREAK <tspan class="t">████████████████████</tspan></text>
- <text x="80" y="2830">[OK] UNDERSTAND <tspan class="t">████████████████████</tspan></text>
- <text x="80" y="2865">[OK] REBUILD <tspan class="t">████████████████████</tspan></text>
-</g>
-<text x="820" y="2750" class="t" font-size="13">OBJECTIVE:</text>
-<text x="820" y="2780" class="dim" font-size="12">BUILD SYSTEMS</text>
-<text x="820" y="2805" class="dim" font-size="12">WORTH REMEMBERING.</text>
-<text x="820" y="2845" class="t" font-size="11">SESSION: <tspan>ACTIVE</tspan><animate attributeName="opacity" values="1;.2;1" dur="1.1s" repeatCount="indefinite"/></text>
-
-<path d="M55 2930H1145" class="line" opacity=".35"/>
-<text x="600" y="2965" text-anchor="middle" class="t title" font-size="14">SESSION // ENCRYPTED // CONNECTION // STABLE_</text>
-<text x="600" y="2988" text-anchor="middle" class="muted" font-size="10">PROFILE_OS v7.77 • TERMINAL_GREEN • 3D_RENDER_ENGINE</text>
+<text x="55" y="2550" fill="#00ff66" font-family="monospace" font-size="14" font-weight="bold">$ SESSION_STATUS</text>
+<text x="600" y="2550" text-anchor="middle" fill="#00ff66" font-family="monospace" font-size="13">PROFILE_OS // ENCRYPTED // ONLINE_</text>
+<circle cx="1140" cy="2545" r="6" fill="#00ff66"><animate attributeName="opacity" values="1;.1;1" dur=".8s" repeatCount="indefinite"/></circle>
 </svg>
