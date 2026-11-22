@@ -3,15 +3,11 @@
 <rect x="1" y="1" width="998" height="188" rx="18" fill="none" stroke="#00ff88" stroke-opacity=".45"/>
 <text x="30" y="38" fill="#00ff88" font-family="monospace" font-size="18" font-weight="700">$ github --telemetry</text>
 <circle cx="245" cy="32" r="6" fill="#00ff88"><animate attributeName="opacity" values="1;.25;1" dur="1.4s" repeatCount="indefinite"/></circle>
-<text x="265" y="38" fill="#7dffb2" font-family="monospace" font-size="12">LIVE PROFILE SIGNAL</text>
-<g font-family="monospace">
-<rect x="30" y="60" width="215" height="92" rx="12" fill="#06130b" stroke="#0c8c4d"/>
-<text x="50" y="88" fill="#4cff9a" font-size="12">PUBLIC REPOS</text><text x="50" y="125" fill="#e0ffe9" font-size="28">SYNCING</text>
-<rect x="265" y="60" width="215" height="92" rx="12" fill="#06130b" stroke="#0c8c4d"/>
-<text x="285" y="88" fill="#4cff9a" font-size="12">TOTAL STARS</text><text x="285" y="125" fill="#e0ffe9" font-size="28">SYNCING</text>
-<rect x="500" y="60" width="215" height="92" rx="12" fill="#06130b" stroke="#0c8c4d"/>
-<text x="520" y="88" fill="#4cff9a" font-size="12">FOLLOWERS</text><text x="520" y="125" fill="#e0ffe9" font-size="28">SYNCING</text>
+<text x="265" y="38" fill="#7dffb2" font-family="monospace" font-size="12">AUTO-SYNCED BY GITHUB ACTIONS</text>
+<rect x="30" y="60" width="215" height="92" rx="12" fill="#06130b" stroke="#0c8c4d"/><text x="50" y="88" fill="#4cff9a" font-family="monospace" font-size="12">PUBLIC REPOS</text><text x="50" y="125" fill="#e0ffe9" font-family="monospace" font-size="28">26</text>
+<rect x="265" y="60" width="215" height="92" rx="12" fill="#06130b" stroke="#0c8c4d"/><text x="285" y="88" fill="#4cff9a" font-family="monospace" font-size="12">TOTAL STARS</text><text x="285" y="125" fill="#e0ffe9" font-family="monospace" font-size="28">1</text>
+<rect x="500" y="60" width="215" height="92" rx="12" fill="#06130b" stroke="#0c8c4d"/><text x="520" y="88" fill="#4cff9a" font-family="monospace" font-size="12">FOLLOWERS</text><text x="520" y="125" fill="#e0ffe9" font-family="monospace" font-size="28">4</text>
 <rect x="735" y="60" width="235" height="92" rx="12" fill="#06130b" stroke="#0c8c4d"/>
-<text x="755" y="88" fill="#4cff9a" font-size="12">PROFILE ENGINE</text><text x="755" y="125" fill="#e0ffe9" font-size="22">ONLINE</text>
-</g>
+<text x="755" y="88" fill="#4cff9a" font-family="monospace" font-size="12">RECENT EVENTS</text>
+<text x="755" y="125" fill="#e0ffe9" font-family="monospace" font-size="28">90</text>
 </svg>
