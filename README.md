@@ -135,10 +135,10 @@ Post-quantum security experimentation.
 </td>
 <td width="50%" valign="top">
 
-### 🤖 TinyGPT-100K
-Compact language-model experimentation from the ground up.
+### 🏥 Hospital DBMS
+Database-driven hospital management engineering project.
 
-<a href="https://github.com/sujeeth777/TinyGPT-100K"><img src="https://img.shields.io/badge/OPEN_REPOSITORY-00ff88?style=for-the-badge&logo=github&logoColor=020604&labelColor=020604"/></a>
+<a href="https://github.com/sujeeth777/Hospital_Project_DBMS"><img src="https://img.shields.io/badge/OPEN_REPOSITORY-00ff88?style=for-the-badge&logo=github&logoColor=020604&labelColor=020604"/></a>
 
 </td>
 </tr>
