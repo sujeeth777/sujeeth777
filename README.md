@@ -89,16 +89,98 @@ Networking / TCP-IP
 
 ## <samp>$ ls -la ~/projects</samp>
 
-| Project | What it does |
-|---|---|
-| **AI Phishing URL Detector** | ML-driven phishing URL analysis and detection |
-| **TinyGPT-100K** | Compact language-model experimentation from the ground up |
-| **FarmHub** | Full-stack agriculture platform with CRUD workflows |
-| **Hospital Management System** | Web application for hospital operations |
-| **Sujeeth Trading AI** | Experimental AI-assisted market analysis |
-| **Prelight** | Performance engineering / inference optimization work |
+<p align="center">
+  <img src="./assets/projects.svg" alt="Animated 3D project matrix" width="100%"/>
+</p>
 
-> More projects live in the repositories below — this profile README is the **control panel**, not the entire lab.
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### <samp>01 // AI PHISHING URL DETECTOR</samp>
+
+```text
+URL
+ ↓
+FEATURE EXTRACTION
+ ↓
+ML CLASSIFIER
+ ↓
+THREAT VERDICT
+```
+
+**Security-focused ML system** for phishing URL analysis.
+
+</td>
+<td width="50%" valign="top">
+
+### <samp>02 // TINYGPT-100K</samp>
+
+```text
+TOKENS
+ ↓
+EMBEDDINGS
+ ↓
+TRANSFORMER
+ ↓
+GENERATE
+```
+
+**Compact language-model experiment** built from the ground up.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### <samp>03 // FARMHUB</samp>
+
+```text
+REACT → API → DATABASE
+```
+
+Full-stack agriculture platform with CRUD workflows.
+
+</td>
+<td valign="top">
+
+### <samp>04 // HOSPITAL SYSTEM</samp>
+
+```text
+AUTH → DATA → OPERATIONS
+```
+
+Web application for structured hospital operations.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### <samp>05 // SUJEETH TRADING AI</samp>
+
+```text
+MARKET → SIGNALS → ANALYSIS
+```
+
+Experimental AI-assisted market analysis system.
+
+</td>
+<td valign="top">
+
+### <samp>06 // PRELIGHT</samp>
+
+```text
+INFERENCE → BENCHMARK → OPTIMIZE
+```
+
+Performance engineering and inference optimization work.
+
+</td>
+</tr>
+</table>
+
+> `~/projects` is a live lab — not a finished-product showroom.
 
 <details>
 <summary><samp>▸ INTERACTIVE TERMINAL // VISUAL MODULES</samp></summary>
@@ -143,10 +225,27 @@ ship: repeat
 
 ## <samp>$ ./connect --channels</samp>
 
-- 🌐 **Portfolio:** https://sujeeth777.github.io/
-- 💼 **LinkedIn:** https://www.linkedin.com/in/sri-sujeeth-213593302
-- 🛡️ **Credly:** https://www.credly.com/users/sri-sujeeth-sirivella
-- 💻 **GitHub:** https://github.com/sujeeth777
+<p align="center">
+  <img src="./assets/connect.svg" alt="Animated 3D connection hub" width="100%"/>
+</p>
+
+<table>
+<tr>
+<td align="center" width="25%"><a href="https://sujeeth777.github.io/"><b>PORTFOLIO</b></a><br/><sub>WEB INTERFACE</sub></td>
+<td align="center" width="25%"><a href="https://github.com/sujeeth777"><b>GITHUB</b></a><br/><sub>SOURCE / SYSTEMS</sub></td>
+<td align="center" width="25%"><a href="https://www.linkedin.com/in/sri-sujeeth-213593302"><b>LINKEDIN</b></a><br/><sub>PROFESSIONAL</sub></td>
+<td align="center" width="25%"><a href="https://www.credly.com/users/sri-sujeeth-sirivella"><b>CREDLY</b></a><br/><sub>CERTIFICATIONS</sub></td>
+</tr>
+</table>
+
+```text
+┌─ CONNECTION STATUS ──────────────────────────────────────────┐
+│  PORTFOLIO   ● ONLINE     GITHUB     ● ONLINE               │
+│  LINKEDIN    ● READY      CREDLY     ● VERIFIED             │
+│                                                             │
+│  ROUTE: SUJEETH//CORE → PUBLIC NETWORK                      │
+└─────────────────────────────────────────────────────────────┘
+```
 
 ## <samp>$ tail -f /var/log/motivation</samp>
 
