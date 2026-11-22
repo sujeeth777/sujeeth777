@@ -15,6 +15,11 @@
   <a href="https://www.credly.com/users/sri-sujeeth-sirivella"><img src="https://img.shields.io/badge/CREDLY-00ff88?style=for-the-badge&logo=credly&logoColor=020604&labelColor=020604" alt="Credly"/></a>
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/sujeeth777/sujeeth777?style=for-the-badge&label=LAST%20PROFILE%20UPDATE&color=00ff88&labelColor=020604" alt="Last profile update"/>
+  <img src="https://img.shields.io/github/repo-size/sujeeth777/sujeeth777?style=for-the-badge&label=PROFILE%20REPO&color=00ff88&labelColor=020604" alt="Profile repository size"/>
+</p>
+
 ---
 
 ## <samp>$ whoami</samp>
@@ -24,6 +29,7 @@
 - 🎓 B.Tech CSE — Karunya Institute of Technology and Sciences
 - 🗓️ Graduation: **2028**
 - ⚙️ Current focus: **AI × Cybersecurity × Networking**
+- 🧬 Research direction: **Post-Quantum Cryptography**
 - 🧪 I like building things that are easier to demonstrate than explain.
 - 🟢 Status: **OPEN TO INTERNSHIP OPPORTUNITIES**
 
@@ -33,6 +39,16 @@
 
 <p align="center">
   <img src="./assets/hologram.svg" alt="Animated holographic system interface" width="100%"/>
+</p>
+
+## <samp>$ github --telemetry</samp>
+
+<p align="center">
+  <img src="./assets/github-telemetry.svg" alt="Auto-synced GitHub telemetry" width="100%"/>
+</p>
+
+<p align="center">
+  <samp>AUTO-SYNCED • GITHUB ACTIONS • 6-HOUR TELEMETRY CYCLE</samp>
 </p>
 
 ## <samp>$ cat /etc/stack</samp>
@@ -87,40 +103,88 @@ Networking / TCP-IP
   <img src="./assets/matrix.svg" alt="Animated build pipeline" width="100%"/>
 </p>
 
-## <samp>$ ls -la ~/projects</samp>
+## <samp>$ ls -la ~/projects --featured</samp>
 
-| Project | What it does |
-|---|---|
-| **AI Phishing URL Detector** | ML-driven phishing URL analysis and detection |
-| **TinyGPT-100K** | Compact language-model experimentation from the ground up |
-| **FarmHub** | Full-stack agriculture platform with CRUD workflows |
-| **Hospital Management System** | Web application for hospital operations |
-| **Sujeeth Trading AI** | Experimental AI-assisted market analysis |
-| **Prelight** | Performance engineering / inference optimization work |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-> More projects live in the repositories below — this profile README is the **control panel**, not the entire lab.
+### 🛡️ AI Phishing URL Detector
+ML-driven phishing URL analysis and detection.
 
-<details>
-<summary><samp>▸ INTERACTIVE TERMINAL // VISUAL MODULES</samp></summary>
+<a href="https://github.com/sujeeth777/AI-Phishing-URL-Detector"><img src="https://img.shields.io/badge/OPEN_REPOSITORY-00ff88?style=for-the-badge&logo=github&logoColor=020604&labelColor=020604"/></a>
+
+</td>
+<td width="50%" valign="top">
+
+### ⚡ Prelight
+NVIDIA-powered performance and inference engineering.
+
+<a href="https://github.com/sujeeth777/prelight"><img src="https://img.shields.io/badge/OPEN_REPOSITORY-00ff88?style=for-the-badge&logo=github&logoColor=020604&labelColor=020604"/></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 AI-Driven PQC Platform
+Post-quantum security experimentation.
+
+<a href="https://github.com/sujeeth777/AI-driven-post-quantum-security-platform"><img src="https://img.shields.io/badge/OPEN_REPOSITORY-00ff88?style=for-the-badge&logo=github&logoColor=020604&labelColor=020604"/></a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 TinyGPT-100K
+Compact language-model experimentation from the ground up.
+
+<a href="https://github.com/sujeeth777/TinyGPT-100K"><img src="https://img.shields.io/badge/OPEN_REPOSITORY-00ff88?style=for-the-badge&logo=github&logoColor=020604&labelColor=020604"/></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🌐 AllKnowDev
+Visual engineering / developer information platform.
+
+<a href="https://github.com/sujeeth777/allknowdev"><img src="https://img.shields.io/badge/OPEN_REPOSITORY-00ff88?style=for-the-badge&logo=github&logoColor=020604&labelColor=020604"/></a>
+
+</td>
+<td width="50%" valign="top">
+
+### 📈 Sujeeth Trading AI
+Experimental AI-assisted market analysis.
+
+<a href="https://github.com/sujeeth777/Sujeeth-Trading-AI"><img src="https://img.shields.io/badge/OPEN_REPOSITORY-00ff88?style=for-the-badge&logo=github&logoColor=020604&labelColor=020604"/></a>
+
+</td>
+</tr>
+</table>
+
+## <samp>$ github --native-layer</samp>
 
 ```text
-╭──────────────────────────────────────────────────────────────╮
-│  3D CORE        ◉ AI       ◉ SECURITY       ◉ NETWORK       │
+┌──────────────────────────────────────────────────────────────┐
+│ PROFILE SYSTEMS — NATIVE GITHUB                              │
 │                                                              │
-│       ╱──────────────╲                                       │
-│      ╱   NEURAL MESH   ╲      packets → → →                │
-│     ╱────────────────────╲                                  │
-│     │   inference node    │      defense node               │
-│     ╲────────────────────╱                                  │
-│      ╲──────────────────╱                                   │
+│ [ PINNED REPOSITORIES ]  →  your six strongest projects      │
+│ [ CONTRIBUTION GRAPH  ]  →  real activity over time          │
+│ [ ACHIEVEMENTS        ]  →  earned GitHub milestones         │
+│ [ ACTIVITY OVERVIEW   ]  →  contribution categories          │
+│ [ PROFILE STATUS      ]  →  current availability             │
 │                                                              │
-│  animation: ACTIVE    telemetry: LIVE    status: ONLINE     │
-╰──────────────────────────────────────────────────────────────╯
+│ These are rendered by GitHub itself — not simulated in HTML. │
+└──────────────────────────────────────────────────────────────┘
 ```
 
-The visual layer is built from repository-local SVGs, so the motion does not depend on a third-party widget.
+## <samp>$ ./connect --channels</samp>
 
-</details>
+<p align="center">
+  <a href="https://sujeeth777.github.io/"><img src="https://img.shields.io/badge/PORTFOLIO-OPEN-00ff88?style=for-the-badge&labelColor=020604"/></a>
+  <a href="https://www.linkedin.com/in/sri-sujeeth-213593302"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-00ff88?style=for-the-badge&labelColor=020604"/></a>
+  <a href="https://www.credly.com/users/sri-sujeeth-sirivella"><img src="https://img.shields.io/badge/CERTIFICATIONS-CREDLY-00ff88?style=for-the-badge&labelColor=020604"/></a>
+</p>
 
 ## <samp>$ git status</samp>
 
@@ -140,13 +204,6 @@ fix: broke it better
 experiment: measure first
 ship: repeat
 ```
-
-## <samp>$ ./connect --channels</samp>
-
-- 🌐 **Portfolio:** https://sujeeth777.github.io/
-- 💼 **LinkedIn:** https://www.linkedin.com/in/sri-sujeeth-213593302
-- 🛡️ **Credly:** https://www.credly.com/users/sri-sujeeth-sirivella
-- 💻 **GitHub:** https://github.com/sujeeth777
 
 ## <samp>$ tail -f /var/log/motivation</samp>
 
@@ -177,12 +234,13 @@ domains:
   - Cybersecurity
   - Networking
   - Software Engineering
+  - Post-Quantum Cryptography
 
-build_style:
-  - practical
-  - experimental
-  - security-minded
-  - systems-oriented
+profile_engine:
+  telemetry: github-actions
+  refresh: every-6-hours
+  visual_layer: repository-local-svg
+  native_layer: github-profile
 ```
 
 </details>
