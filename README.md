@@ -31,6 +31,10 @@
   <img src="./assets/architecture.svg" alt="3D architecture grid" width="100%"/>
 </p>
 
+<p align="center">
+  <img src="./assets/hologram.svg" alt="Animated holographic system interface" width="100%"/>
+</p>
+
 ## <samp>$ cat /etc/stack</samp>
 
 <table>
@@ -77,6 +81,12 @@ Networking / TCP-IP
 </tr>
 </table>
 
+## <samp>$ ./pipeline --live</samp>
+
+<p align="center">
+  <img src="./assets/matrix.svg" alt="Animated build pipeline" width="100%"/>
+</p>
+
 ## <samp>$ ls -la ~/projects</samp>
 
 | Project | What it does |
@@ -89,6 +99,28 @@ Networking / TCP-IP
 | **Prelight** | Performance engineering / inference optimization work |
 
 > More projects live in the repositories below — this profile README is the **control panel**, not the entire lab.
+
+<details>
+<summary><samp>▸ INTERACTIVE TERMINAL // VISUAL MODULES</samp></summary>
+
+```text
+╭──────────────────────────────────────────────────────────────╮
+│  3D CORE        ◉ AI       ◉ SECURITY       ◉ NETWORK       │
+│                                                              │
+│       ╱──────────────╲                                       │
+│      ╱   NEURAL MESH   ╲      packets → → →                │
+│     ╱────────────────────╲                                  │
+│     │   inference node    │      defense node               │
+│     ╲────────────────────╱                                  │
+│      ╲──────────────────╱                                   │
+│                                                              │
+│  animation: ACTIVE    telemetry: LIVE    status: ONLINE     │
+╰──────────────────────────────────────────────────────────────╯
+```
+
+The visual layer is built from repository-local SVGs, so the motion does not depend on a third-party widget.
+
+</details>
 
 ## <samp>$ git status</samp>
 
