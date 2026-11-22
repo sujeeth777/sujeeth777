@@ -1,1 +1,1 @@
-![SUJEETH PROFILE OS](./assets/profile-os.svg)
+![SRI SUJEETH PROFILE OS](./assets/profile-os.gif)
